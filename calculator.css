@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    height:5vh;
+    width:100vw;
+    background-color:black;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.bar{
+   list-style-type: none;
+}
+
+.container{
+    height: 60vh;
+    width:30vw;
+    display: grid;
+    background-color:aqua;
+    margin: 0vh auto;
+    border:1px solid black;
+
+    /* grid-template-rows:10vh 10vh; */
+    /* grid-template-columns:10vw 10vw 10vw; */
+
+/* or */
+
+    /* grid-template-rows:1fr 1fr 1fr; */
+    /* grid-template-columns:1fr 1fr 1fr ; */
+
+/* or */
+
+    grid-template-rows:repeat(4,1fr);
+    grid-template-columns:repeat(4,1fr);
+
+
+/* gap */
+
+    /* grid-row-gap:2vh;
+    grid-column-gap:2vw; */
+
+/* or agr dono ka gap same hi rkhna hai to aise bhi kr skte h */
+
+    grid-gap:20px;
+
+}
+
+/* .grid0{
+    background-color:red;
+}
+.grid1{
+    background-color:blue;
+}
+.grid2{
+    background-color:orange;
+}
+.grid3{
+    background-color:yellow;
+}
+.grid4{
+    background-color:pink;
+}
+.grid5{
+    background-color:black;
+}
+.grid6{
+    background-color:white;
+}
+.grid7{
+    background-color:navy;
+}
+.grid8{
+    background-color:green;
+}
+ */
+
+ .grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor:pointer;
+ }
+
+ .in{
+    margin: 1rem auto;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    color: black;
+
+    
+ }
